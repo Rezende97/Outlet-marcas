@@ -23,7 +23,27 @@
             </div>
         </header>
 
+        <div class="container">
+
+            <div class="marcas">
+                <h1>Marcas</h1>
+
+                <div class="imagemMarcas">
+                    <a href="nike">
+                        <img src="/imagem/nike.webp" alt="nike">
+                    </a> 
+                </div>
+                <div class="imagemMarcas">
+                    <img src="/imagem/lacoste.png" alt="lacoste">
+                </div>
+                <div class="imagemMarcas">
+                    <img src="/imagem/adidas.png" alt="adidas">
+                </div>
+            </div>
+
+        </div>
     </div>
+    
     <script src="/javaScript/script.js"></script>
 </body>
 </html>

@@ -7,6 +7,12 @@
     padding: 0;
 }
 
+:root{
+    --font-primary: 'Baloo 2';
+    --font-segundaria:  'Edu QLD Beginner';
+    --font-terceira: 'Heebo';
+}
+
 /* cabeçalho imagem */
 header{
     width: 100%;
@@ -49,7 +55,7 @@ header{
     color: #fff;
     font-size: 3rem;
     font-weight: 1;
-    font-family: 'Baloo 2', serif;
+    font-family: var(--font-primary);
     animation: fraseMarca 2.5s forwards;
 }
 
@@ -57,14 +63,14 @@ header{
     color: #fff;
     font-size: 2rem;
     font-weight: 1;
-    font-family: 'Edu QLD Beginner', serif;
+    font-family: var(--font-segundaria);
     margin-bottom: 15px; 
     animation: fraseMarca 2.5s forwards;  
 }
 
 .nome-marca button{
     color: #000;
-    font-family: 'Heebo', serif;
+    font-family: var(--font-terceira);
     font-size: 1rem;
     background: #1f4037; 
     background: -webkit-linear-gradient(to right, #99f2c8, #1f4037); 
@@ -85,3 +91,29 @@ header{
     }
 }
 
+/* marcas */
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.marcas{
+    width: 100%;
+}
+
+.marcas h1{
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-primary);
+    font-size: 2.5rem;
+    font-style: italic;
+    width: 100%;
+}
+
+.marcas .imagemMarcas{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
